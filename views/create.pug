@@ -1,0 +1,35 @@
+extends layout
+
+block content
+    form(id='form', method='post', action='/create')
+    label(for='username') User Name:
+    input(type='text', name='username')
+    br
+    label(for='password') Password:
+    input(type='text', name='password')
+    br
+    label(for='email') Email:
+    input(type='text', name='email')
+    br
+    label(for='age') Age:
+    input(type='text', name='age')
+    br
+    label(for='mquestion1') Place question here:
+    select(name='mquestion1')
+        option(value='Answer1') Answer1
+        option(value='Answer2') Answer2
+        option(value='Answer3') Answer3
+    br
+    label(for='mquestion2') Place question here:
+    select(name='mquestion1')
+        option(value='Answer1') Answer1
+        option(value='Answer2') Answer2
+        option(value='Answer3') Answer3
+    br
+    label(for='mquestion3') Place question here:
+    select(name='mquestion1')
+        option(value='Answer1') Answer1
+        option(value='Answer2') Answer2
+        option(value='Answer3') Answer3
+    br
+    input(type='submit', value='Add New User')

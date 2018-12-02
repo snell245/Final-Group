@@ -1,0 +1,23 @@
+{
+  "name": "final-group",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/snell245/Final-Group.git"
+  },
+  "author": "Joseph Jennings Jr., Terence Snell, Cody Watts",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/snell245/Final-Group/issues"
+  },
+  "homepage": "https://github.com/snell245/Final-Group#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "pug": "^2.0.3"
+  }
+}
