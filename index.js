@@ -17,7 +17,9 @@ var urlencodedParser = bodyParser.urlencoded({
 
 //SET UP THE ROUTES
 app.get('/', route.index);
-app.get('/create', route.createUser);
+app.get('/create', function(req, res){
+    res.render('./create');
+});
 app.get('/edit:id', route.edit);
 app.get('/details/:id', route.details);
 app.post('/create', urlencodedParser, route.createUser);
