@@ -1,1 +1,33 @@
-/* Hello */
+html {
+    background-color: #227;
+  }
+  body {
+    font-family: verdana, arial, sans-serif;
+    font-size: 12px;
+    width: 80%;
+    padding: 20px;
+    background-color: #eeb;
+  }
+  
+  table.gridtable {
+    color: #337;
+    border-width: 1px;
+    border-color: #559;
+    border-collapse: collapse;
+  }
+  
+  table.gridtable th {
+    border-width: 1px;
+    padding: 8px;
+    border-style: solid;
+    border-color: #559;
+    background-color: #ccf;
+  }
+  
+  table.gridtable td {
+    border-width: 1px;
+    padding: 8px;
+    border-style: solid;
+    border-color: #559;
+    background-color: #fff;
+  }
