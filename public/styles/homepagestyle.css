@@ -1,0 +1,18 @@
+.menu_item {
+    display: inline-block;
+    border: 1px solid black;
+    width: 80px;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+    background: #428;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}

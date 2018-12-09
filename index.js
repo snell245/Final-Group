@@ -3,6 +3,7 @@ var pug = require('pug');
 var path = require('path');
 var route = require('./routes/routes.js');
 var bodyParser = require('body-parser');
+var config = require('./config.json');
 
 var app = express();
 
@@ -16,6 +17,20 @@ var urlencodedParser = bodyParser.urlencoded({
 });
 
 //SET UP THE ROUTES
+app.get('/', function(req, res){
+    res.render('home', {
+        "title": "Home",
+        "config": config
+    });
+});
+
+app.get('/login', function(req, res){
+    res.render('create', {
+        'title': req.params.name,
+    });
+});
+
+
 app.get('/', route.index);
 app.get('/create', function(req, res){
     res.render('./create');
