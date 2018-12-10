@@ -12,7 +12,7 @@ var userSchema = mongoose.Schema({
     username: String,
     password: String,
     email: String,
-    age: String,
+    age: String
     //User questions to answer.
 });
 
